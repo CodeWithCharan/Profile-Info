@@ -1,16 +1,21 @@
 def combine(data):
     
-    tools, expertise, connect_with_me = data
+    languages, tech, data_analysis, connect_with_me = data
     
-    # Print tools
-    print("Tools:")
-    for tool in tools:
-        print("-", tool)
+    # Print languages
+    print("Languages:")
+    for language in languages:
+        print("-", language)
+
+    # Print technologies
+    print("\nTechnologies:")
+    for t in tech:
+        print("-", t)
     
-    # Print expertise
-    print("\nExpertise:")
-    for skill in expertise:
-        print("-", skill)
+    # Print data analysis
+    print("\nData Analysis:")
+    for da in data_analysis:
+        print("-", da)
     
     # Print connection information
     print("\nConnect with me:")
